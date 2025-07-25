@@ -1,0 +1,18 @@
+nav {
+  background-color: #2c3f51;
+}
+.navbarBrand {
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.active {
+  background-color: #1bbd9c;
+  border-radius: 10px;
+}
+.navLink{
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 5px;
+}

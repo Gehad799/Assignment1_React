@@ -1,0 +1,22 @@
+.contact-form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+
+.contact-form .contact-btn {
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.contact-form .contact-btn:hover {
+  background-color: #16a085;
+}

@@ -1,0 +1,60 @@
+.portfolio-title {
+  color: #2c3f51;
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.portfolio-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.portfolio-divider .line {
+  width: 60px;
+  height: 4px;
+  background: #2c3f51;
+  margin: 0 12px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.portfolio-divider .star {
+  color: #2c3f51;
+  font-size: 1.5rem;
+}
+
+.layer {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.6s opacity;
+}
+.img-hover:hover .layer {
+  opacity: 1;
+}
+.custom-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
